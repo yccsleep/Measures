@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ycc.measures.lFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/casual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/casual"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="@string/sports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sports"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="60sp" />
+
+        <TextView
+            android:text="@string/suits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/suits"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="60sp" />
+    </LinearLayout>
+</FrameLayout>

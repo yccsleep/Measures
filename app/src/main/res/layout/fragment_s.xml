@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_s"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.ycc.measures.sFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/etcm2"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:text="@string/mm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/cm2"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:text="@string/US"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/US"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/etus"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:text="@string/EU"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/EU"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/eteu"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:text="@string/UK"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/UK"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/etuk"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:text="@string/CN"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/CN"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/etcn"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:inputType="numberDecimal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+    </LinearLayout>
+</LinearLayout>

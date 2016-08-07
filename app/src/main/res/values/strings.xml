@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Measures</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="measures">尺码</string>
+
+    <string name="allaboutmeasures">一切关乎尺码的……</string>
+
+    <string name="cancle">取消</string>
+    <string name="confirm">确认</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="my_measures">我的尺码</string>
+    <string name="convention">尺码换算</string>
+    <string name="size_lib">尺码大全</string>
+    <string name="head">头围：</string>
+    <string name="shoulder">肩宽：</string>
+    <string name="chest">胸围：</string>
+    <string name="waist">腰围：</string>
+    <string name="hip">臀围：</string>
+    <string name="thigh">大腿围：</string>
+
+    <string-array name="measure_array">
+        <item>头围</item>
+        <item>肩宽</item>\
+        <item>胸围</item>
+        <item>腰围</item>
+        <item>臀围</item>
+        <item>大腿围</item>
+    </string-array>
+    <string name="ma">码</string>
+    <string name="cm">厘米</string>
+    <string name="mm">毫米</string>
+    <string name="chi">尺</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="del">C</string>
+    <string name="dot">.</string>
+    <string name="casual">CASUAL</string>
+    <string name="sports">SPORTS</string>
+    <string name="suits">SUITS</string>
+    <string name="reg">腰围</string>
+    <string name="shoes">鞋码</string>
+    <string name="UK">英码</string>
+    <string name="US">美码</string>
+    <string name="CN">中码</string>
+    <string name="EU">欧码</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_casual">casual</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
